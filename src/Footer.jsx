@@ -1,8 +1,18 @@
 function Footer() {
   return (
-    <footer>
-      <p>Footer</p>
-    </footer>
+    <>
+      <div className="flex  justify-between">
+    <div className="flex">
+
+    <div>find me in:</div>
+    <div>x-logo</div>
+    <div>l-logo</div>
+
+    </div>
+
+    <div>@github-link</div>
+    </div>
+    </>
   );
 }
 

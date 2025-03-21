@@ -1,7 +1,8 @@
 function Sidebar() {
   return (
     <div className="sidebar">
-      sidebar
+      <div className="border-2 border-gray h-[50px]">name</div>
+      <div>sidebar-panel</div>
     </div>
   );
 }

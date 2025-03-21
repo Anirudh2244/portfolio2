@@ -2,10 +2,14 @@
   background-color: #011627;
 }
 
-.bg-shiny-green{
+.bg-shiny-green {
   background-color: #1a5f59;
 }
 
-.bg-shiny-blue{
+.bg-shiny-blue {
   background-color: #1f3767;
+}
+
+.border-gray {
+  border-color: #415a72;
 }
