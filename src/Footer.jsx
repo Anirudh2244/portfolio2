@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
   return (
     <>
@@ -13,7 +16,7 @@ function Footer() {
             href="#"
             className="text-theme-green border-r-1 py-3 px-5 border-r-gray-500"
           >
-            l-logo
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
 
@@ -21,7 +24,7 @@ function Footer() {
           href="#"
           className="text-theme-green border-l-1 py-3 px-5 border-r-gray-500"
         >
-          @github-link
+          @Anirudh2244 <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
     </>
