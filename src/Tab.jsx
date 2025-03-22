@@ -24,7 +24,7 @@ function Tab() {
         </div>
         <a
           href="#"
-          className="px-5 border-r-1 py-3 border-gray text-theme-green border-l-1"
+          className="px-5 border-x-1 py-3 border-gray text-theme-green"
         >
           _contact-me
         </a>

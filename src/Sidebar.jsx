@@ -1,8 +1,8 @@
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div className="border-1 border-gray h-[50px] flex items-center ps-5 text-theme-green">
-        name
+      <div className="border-1 border-gray h-[40px] flex items-center ps-5 text-theme-green">
+        anirudh-dubey 
       </div>
     </div>
   );
