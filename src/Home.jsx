@@ -7,11 +7,11 @@ function Home() {
   return (
     <>
       <div className="h-[calc(100vh-40px)] bg-main flex text-white">
-        <div className="w-[300px] bg-main">
+        <div className="w-[250px] bg-main">
           <Sidebar></Sidebar>
         </div>
 
-        <div className="w-[calc(100vw-300px)] bg-main">
+        <div className="w-[calc(100vw-250px)] bg-main">
           <div className="h-[40px] bg-main">
             <Tab></Tab>
           </div>

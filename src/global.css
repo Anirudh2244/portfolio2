@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 @import "tailwindcss";
+
+body {
+  font-family: "Inconsolata", monospace;
+}
 
 .bg-main {
   background-color: #011627;
@@ -14,7 +19,6 @@
 
 .border-gray {
   border-color: #415a72;
-
 }
 .text-theme-green {
   color: #39bb98;
