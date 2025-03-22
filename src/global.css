@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 .bg-main {
   background-color: #011627;
 }
@@ -15,4 +14,8 @@
 
 .border-gray {
   border-color: #415a72;
+
+}
+.text-theme-green {
+  color: #39bb98;
 }

@@ -23,7 +23,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="h-[50px] bg-main text-white border-2 border-gray">
+      <div className="h-[50px] bg-main text-white border-1 border-gray">
         <Footer></Footer>
       </div>
     </>
