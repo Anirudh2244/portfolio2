@@ -1,7 +1,7 @@
 function Tab() {
   return (
     <>
-      <div className="flex justify-between items-center h-full overflow-hidden border-y-1 border-gray">
+      <div className="flex justify-between items-center h-full overflow-hidden border-b-1 border-gray">
         <div className="flex">
           <a
             href="#"
@@ -24,7 +24,7 @@ function Tab() {
         </div>
         <a
           href="#"
-          className="px-5 border-x-1 py-3 border-gray text-theme-green"
+          className="px-5 border-l-1 py-3 border-gray text-theme-green"
         >
           _contact-me
         </a>

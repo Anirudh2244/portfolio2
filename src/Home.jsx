@@ -6,7 +6,7 @@ import ShinyBackground from "./ShinyBackground";
 function Home() {
   return (
     <>
-      <div className="h-[calc(100vh-40px)] bg-main flex text-white">
+      <div className="h-[calc(100vh-40px)] bg-main flex border-1 border-gray">
         <div className="w-[250px] bg-main">
           <Sidebar></Sidebar>
         </div>
@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="h-[40px] bg-main text-white border-1 border-gray">
+      <div className="h-[40px] bg-main border-b-1 border-gray">
         <Footer></Footer>
       </div>
     </>
