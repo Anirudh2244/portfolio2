@@ -6,14 +6,12 @@ function Footer() {
     <>
       <div className="flex  justify-between items-center h-full overflow-hidden">
         <div className="flex">
-          <a
-            href="#"
-            className="text-theme-green border-r-1 py-3 px-5 border-r-gray-500"
-          >
+          <p className="text-theme-green border-r-1 py-3 px-5 border-r-gray-500">
             find me in:
-          </a>
+          </p>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/anirudh--dubey/"
+            target="_blank"
             className="text-theme-green border-r-1 py-3 px-5 border-r-gray-500"
           >
             <FontAwesomeIcon icon={faLinkedin} />
@@ -21,7 +19,8 @@ function Footer() {
         </div>
 
         <a
-          href="#"
+          href="https://github.com/Anirudh2244"
+          target="_blank"
           className="text-theme-green border-l-1 py-3 px-5 border-r-gray-500"
         >
           @Anirudh2244 <FontAwesomeIcon icon={faGithub} />
